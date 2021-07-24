@@ -18,10 +18,10 @@ export default function Home({results}) {
 }
 
 export async function getServerSideProps(context) {
-  const genre = context.query.genre;
+  const apiKey = process.env.API_KEY;
 
   const request = await fetch(
-    `https://newsapi.org/v2/everything?q=olympics&sortBy=publishedAt&language=en&apiKey=${process.env.apiKey}`
+    `https://newsapi.org/v2/everything?q=olympics&sortBy=publishedAt&language=en&apiKey=${apiKey}`
   ).then((res) => res.json());
 
   return {

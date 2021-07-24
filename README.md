@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS Hulu Frontend clone
+# Next.js + Tailwind CSS OLYMPICS NEWS
 This is a Website used to keep up with emerging trends and Information from the 2021 Olympic Games.
 
 # Preview
