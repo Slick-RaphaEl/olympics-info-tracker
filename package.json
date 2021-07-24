@@ -1,0 +1,27 @@
+{
+  "name": "nxtjs-stream-app",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-flip-move": "^3.0.4",
+    "tailwind-scrollbar-hide": "^1.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.4"
+  }
+}
