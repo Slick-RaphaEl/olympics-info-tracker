@@ -1,16 +1,17 @@
 # Next.js + Tailwind CSS Hulu Frontend clone
-This project is a frontend clone of google built with Next JS and Tailwind CSS. It uses TMDB API and the new Just-in-Time Mode for Tailwind CSS.
+This is a Website used to keep up with emerging trends and Information from the 2021 Olympic Games.
 
 # Preview
-https://nxtjs-stream-app.vercel.app/
+https://olympics-info-tracker.vercel.app/
 
 # Prerequisites
-Tmdb api key: https://www.themoviedb.org/signup
+Newsorg api key: https://www.Newsapi.org
 
 # How to use
-Clone the repo: git clone https://github.com/Slick-RaphaEl/nxtjs-stream-app
+Clone the repo: git clone https://github.com/Slick-RaphaEl/olympics-info-tracker
 
-Install NPM packages: npm install
+Install NPM packages: 
+    npm install
 
 # Author
 Raphael Otuya @Slick-RaphaEl
