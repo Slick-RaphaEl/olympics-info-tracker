@@ -21,7 +21,7 @@ export async function getServerSideProps(context) {
   const apiKey = process.env.API_KEY;
 
   const request = await fetch(
-    `https://newsapi.org/v2/everything?q=olympics&sortBy=publishedAt&language=en&apiKey=${apiKey}`
+    `https://newsapi.org/v2/everything?q=olympics AND nigeria &sortBy=publishedAt&language=en&apiKey=${apiKey}`
   ).then((res) => res.json());
 
   return {
