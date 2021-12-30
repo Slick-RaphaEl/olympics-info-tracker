@@ -6,8 +6,8 @@ export default function Home({results}) {
   return (
     <div className="">
       <Head>
-        <title>Olympics Info Live</title>
-        <meta name="description" content="Olympics, Information about current events in the olympics" />
+        <title>Afcon News</title>
+        <meta name="description" content="Get the latest news regarding the 2022 Africa cup of nation AFCON" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,7 +21,7 @@ export async function getServerSideProps(context) {
   const apiKey = process.env.API_KEY;
 
   const request = await fetch(
-    `https://newsapi.org/v2/everything?q=olympics AND nigeria &sortBy=publishedAt&language=en&apiKey=${apiKey}`
+    `https://newsapi.org/v2/everything?q=afcon AND africa cup of nation &sortBy=publishedAt&language=en&apiKey=${apiKey}`
   ).then((res) => res.json());
 
   return {

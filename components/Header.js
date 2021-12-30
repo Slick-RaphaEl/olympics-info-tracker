@@ -1,11 +1,9 @@
 import Image from 'next/image';
-import logo from "../public/Olympics-logo.png";
-
 
 function Header() {
     return (
-        <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
-            <Image className="object-contain" src={logo} width={200} height={100} alt="olympics-info"/>
+        <header className="flex flex-col sm:flex-row m-5 justify-center items-center h-auto">
+            <Image className="object-contain" src="https://dl.dropbox.com/s/4whvqkz271qdwjz/Afcon-2021-logo.png?dl=0" width={200} height={100} alt="olympics-info"/>
 
         </header>
         

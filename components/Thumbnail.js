@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import { ThumbUpIcon } from "@heroicons/react/outline";
 import { forwardRef } from 'react';
 
 
